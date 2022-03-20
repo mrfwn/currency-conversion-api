@@ -10,20 +10,23 @@
   ##  Description:  
    - This project is an API that looks for the best conversion of a currency given a certain availability of conversions. 
    
-  ##  Running:  
-   - Clone code - "git clone url_repository" .
+  ##  Running: 
+	
+   - Clone code: `git clone <url_repository> .`
 
-   - Running "npm install" in root project path
+   - Run `npm install` in root project path
    
-   - Create an .env file from .envexample
+   - Create an `.env` file from `.env.example`
    
-   - run "npm run start:dev"
+   - Run `npm run start:dev`
+	
+	
   ## Features:
   - Finding the best conversion path
   - CSV generation with conversion data
 
   ## Route:
-  - GET : /conversion
+  - GET: `/conversion`
 
   ##  The Problem:
    - Imagine that a bank is having some difficulty in converting some currencies to serve its customers, but it has a partner network in which it can use others currencies to carry out this exchange:
