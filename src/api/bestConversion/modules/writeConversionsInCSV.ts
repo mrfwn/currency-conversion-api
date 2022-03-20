@@ -1,4 +1,5 @@
 import { createObjectCsvWriter } from "csv-writer";
+import fs from 'fs';
 import { ObjectCsvWriterParams } from "csv-writer/src/lib/csv-writer-factory";
 import { ObjectStringifierHeader } from "csv-writer/src/lib/record";
 import path from "path";
@@ -16,6 +17,8 @@ export const defaultPath: string = path.join(__dirname, '..', '..', '..', '..', 
 export const writeConversionsInCSV = async (conversions: Conversion[]): Promise<string> => {
     try {
         const fileName = `currency_convertion_${Date.now()}.csv`;
+        if (!fs.existsSync(defaultPath))
+            fs.mkdirSync(defaultPath)
         const filePath: string = path.join(defaultPath, fileName);
 
         const csvHeader: ObjectStringifierHeader = [
