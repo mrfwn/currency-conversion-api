@@ -20,6 +20,13 @@
    
    - Run `npm run start:dev`
 	
+   - Run test `npm run test` and test coverage `npm run test:coverage` 
+
+  ## Automated tests:
+
+  - Unit tests were implemented for some functions, in particular the search function for the shortest conversion path, but greater test coverage is still needed.
+
+<img src="./files_readme/coverage_test.png" title="Coverage Test">
 	
   ## Features:
   - Finding the best conversion path
