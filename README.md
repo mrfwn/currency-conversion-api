@@ -26,7 +26,7 @@
 
   - Unit tests were implemented for some functions, in particular the search function for the shortest conversion path, but greater test coverage is still needed.
 
-<img src="./files_readme/coverage_test.png" title="Coverage Test">
+<img src="./files_readme/coverage_test.png" title="Coverage Test" width="600" height="350">
 	
   ## Features:
   - Finding the best conversion path
