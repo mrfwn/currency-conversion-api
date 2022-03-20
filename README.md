@@ -43,9 +43,14 @@
 	
 <img src="./images/result.png" title="Result" width="500" height="500">
 	
-  ##   RFC:
+  ##   Dijkstra:
 
-   - We explain in more detail about the implementation of the API and Dijkstra in the link: [RFC - Currency Conversion API](https://unexpected-territory-205.notion.site/RFC-Currency-Conversion-API-22acfbb51ca94c6ca45a8dac77334fa5)
+<img src="./images/dijkstra.gif" title="Dijkstra" width="350" height="350">
+
+  - To solve this problem, the master strategy shown above was used, we started with all currencies with infinite weight except the initial one, which is the Canadian dollar (CAD).
+  - Then we start the walk through the graph where we use an object to control the unvisited nodes and then look at its neighbors and update the weights.
+  - Finally, we perform the search for the best path in the weighted graph, this walk is done from the end to the beginning of the graph and looking for the best path.
+  - NOTE: The problem behaves like a directed graph, so the opposite directions were created with infinite weights, making these paths discard.
 </div>
 
 </body>
