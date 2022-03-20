@@ -35,7 +35,7 @@
 
    - The great challenge of the project is the search for the best conversion of each currency, where for this we use the Djikstra algorithm as a basis, having as a point of attention that the problem is a directed graph which made us have the approach of for the In the opposite sense of the node we put an infinite weight.
 
-   - We explain in more detail about the implementation of Dijkstra in the link: [RFC - Currency Conversion API](https://unexpected-territory-205.notion.site/RFC-Currency-Conversion-API-22acfbb51ca94c6ca45a8dac77334fa5)
+   - We explain in more detail about the implementation of the API and Dijkstra in the link: [RFC - Currency Conversion API](https://unexpected-territory-205.notion.site/RFC-Currency-Conversion-API-22acfbb51ca94c6ca45a8dac77334fa5)
 </div>
 
 </body>
