@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { fetchCurrencyRateList } from './modules/fetchCurrencyRateList';
 import { filterInvalidConversions } from './modules/filterInvalidConversions';
-import { getCurrencyConvertionList } from './modules/getCurrencyConvertionList';
+import { getCurrencyConversionList } from './modules/getCurrencyConversionList';
 import { writeConversionsInCSV } from './modules/writeConversionsInCSV';
 import { Conversion, CurrencyRate } from './types';
 
@@ -29,7 +29,7 @@ export const bestConversionController = async (_: Request, response: Response): 
      * the other data of the conversion will be carried out.
     */
 
-    const conversionList: Conversion[] = getCurrencyConvertionList(validCurrencyRateList, currencyRateList);
+    const conversionList: Conversion[] = getCurrencyConversionList(validCurrencyRateList, currencyRateList);
 
     /**
      * Here the conversion list will be generated and written to the csv file

@@ -173,7 +173,7 @@ export const updateCurrencyRateGraphWeights = (currencyRateInitialGraph: Currenc
  * the walk through the graph to update the weights and finally, 
  * the search for the optimal path between the start and end nodes
  */
-export const getTheBestConvertion = (firstCurrency: string, lastCurrency: string, currencyRateList: CurrencyRate[]): string[] => {
+export const getTheBestConversionPath = (firstCurrency: string, lastCurrency: string, currencyRateList: CurrencyRate[]): string[] => {
 
     /**
      * This condition is for the condition of initial and final states to be equal

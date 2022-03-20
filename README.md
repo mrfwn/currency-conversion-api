@@ -26,20 +26,20 @@
   - GET : /conversion
 
   ##  The Problem:
-   - Imagine that a bank is having some difficulty in converting some currencies to serve its customers, but it has a partner network in which it can use others currencies to carry out this exchange:
+   - Imagine that a bank is having some difficulty in converting some currencies to serve its customers, but it has a partner network in which it can use other currencies to carry out this exchange:
 
    - Ex: A customer needs to exchange 100 Canadian Dollars to Euro, but the bank does not have Euro for the exchange, but he has an American partner that he can convert 100 Canadian Dollars to US Dollar and his partner converts to Euro, CAD -> USD -> EUR, given this possibility, the manager asked for a report containing all the conversion possibilities and they need to be the smallest and the best conversion possible for his client.
 
   ##  The Proposed Solution:
-   - To solve this problem, we developed an api that has a conversion route, where upon request, a CSV file will be generated with all the best conversions for the given group of currencies and possible conversions.
+   - To solve this problem, we developed an API that has a conversion route, whereupon request, a CSV file will be generated with all the best conversions for the given group of currencies and possible conversions.
 
    - The great challenge of the project is the search for the best conversion of each currency, where for this we use the Djikstra algorithm as a basis.
 
 <img src="./files_readme/dijkstra.gif" title="Dijkstra" width="350" height="350">
 
   - To solve this problem, the master strategy shown above was used, we started with all currencies with infinite weight except the initial one, which is the Canadian dollar (CAD).
-  - Then we start the walk through the graph where we use an object to control the unvisited nodes and then look at its neighbors and update the weights.
-  - Finally, we perform the search for the best path in the weighted graph, this walk is done from the end to the beginning of the graph and looking for the best path.
+  - Then we start the walk through the graph where we use an object to control the unvisited nodes and then look at its neighbours and update the weights.
+  - Finally, we perform the search for the best path in the weighted graph, this walk is done from the end to the beginning of the graph and looks for the best path.
   - NOTE: The problem behaves like a directed graph, so the opposite directions were created with infinite weights, making these paths discard.
   ##   Diagram:
 	

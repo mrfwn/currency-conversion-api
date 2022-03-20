@@ -1,10 +1,10 @@
 import { Conversion, CurrencyRate, DefaultCurrency } from "../types";
-import { getTheBestConvertion } from "./getTheBestConversion";
+import { getTheBestConversionPath } from "./getTheBestConversionPath";
 
 /**
  * This function is responsible for building the list of conversions
  */
-export const getCurrencyConvertionList = (validCurrencyList: string[], currencyRateList: CurrencyRate[]): Conversion[] => {
+export const getCurrencyConversionList = (validCurrencyList: string[], currencyRateList: CurrencyRate[]): Conversion[] => {
     /**
      * Given the list of valid currencies, we will go one by one to identify the best conversion
      */
@@ -12,7 +12,7 @@ export const getCurrencyConvertionList = (validCurrencyList: string[], currencyR
         /**
          * This will be the function responsible for informing the best conversion path for each currency
          */
-        const pathList = getTheBestConvertion(DefaultCurrency.Code, currency, currencyRateList);
+        const pathList = getTheBestConversionPath(DefaultCurrency.Code, currency, currencyRateList);
 
         /**
          * This function is responsible for carrying out the search 
