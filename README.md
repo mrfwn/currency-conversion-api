@@ -8,7 +8,7 @@
 <div>
   
   ##  Description:  
-   - This project is an API that looks for the best conversion of a currency given a certain availability of conversions.
+   - This project is an API that looks for the best conversion of a currency given a certain availability of conversions. 
    
   ##  Running:  
    - Clone code - "git clone url_repository" .
