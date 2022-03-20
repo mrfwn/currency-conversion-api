@@ -13,7 +13,7 @@
   ##  Running:  
    - Clone code - "git clone url_repository" .
 
-   - Running "npm run install" in path .
+   - Running "npm install" in path .
    
    - Create an .env file from .envexample
    
