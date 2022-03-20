@@ -13,7 +13,7 @@
   ##  Running:  
    - Clone code - "git clone url_repository" .
 
-   - Running "npm install" in path .
+   - Running "npm install" in root project path
    
    - Create an .env file from .envexample
    
@@ -26,12 +26,12 @@
   - GET : /conversion
 
   ##  The Problem:
-   - Imagine that a bank is having some difficulty in converting some currencies to serve its customers, but it has a partner network in which it can use other currencies to carry out this exchange:
+   - Imagine that a bank is having some difficulty in converting some currencies to serve its customers, but it has a partner network in which it can use others currencies to carry out this exchange:
 
-   - Ex: A customer needs to exchange 100 Canadian Dollars to Euro, but the bank does not have Euro for the exchange, but he has an American partner that he can convert 100 Canadian Dollars to US Dollar and his partner converts to Euro, CAD -> USD -> EUR, given this possibility, the manager asked for a report containing all the conversion possibilities, but that they are the smallest and best possible for his client.
+   - Ex: A customer needs to exchange 100 Canadian Dollars to Euro, but the bank does not have Euro for the exchange, but he has an American partner that he can convert 100 Canadian Dollars to US Dollar and his partner converts to Euro, CAD -> USD -> EUR, given this possibility, the manager asked for a report containing all the conversion possibilities and they need to be the smallest and the best conversion possible for his client.
 
   ##  The Proposed Solution:
-   - To solve this problem, we developed an api that has a conversion route, where upon request a CSV file will be generated with all the best conversions for the given group of currencies and possible conversions.
+   - To solve this problem, we developed an api that has a conversion route, where upon request, a CSV file will be generated with all the best conversions for the given group of currencies and possible conversions.
 
    - The great challenge of the project is the search for the best conversion of each currency, where for this we use the Djikstra algorithm as a basis.
 
