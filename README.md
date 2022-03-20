@@ -3,7 +3,7 @@
 </head>
 <body>
 	<p align="center">
-  <img src="logo_e.png" width="350" title="Conversion">
+  <img src="logo_e.png" width="200" title="Conversion">
 </p>
 <div>
   
