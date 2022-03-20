@@ -3,7 +3,7 @@
 </head>
 <body>
 	<p align="center">
-  <img src="./images/logo_e.png" width="200" title="Conversion">
+  <img src="./files_readme/logo_e.png" width="200" title="Conversion">
 </p>
 <div>
   
@@ -37,15 +37,15 @@
 
   ##   Diagram:
 	
-<img src="./images/diagram.png" title="Diagram" width="500" height="500">
+<img src="./files_readme/diagram.png" title="Diagram" width="500" height="500">
 
   ##   Result:
-	
-<img src="./images/result.png" title="Result" width="500" height="500">
+<h3><a href="./files_readme/result.csv">CSV File</a></h3>
+<img src="./files_readme/result.png" title="Result" width="500" height="500">
 	
   ##   Dijkstra:
 
-<img src="./images/dijkstra.gif" title="Dijkstra" width="350" height="350">
+<img src="./files_readme/dijkstra.gif" title="Dijkstra" width="350" height="350">
 
   - To solve this problem, the master strategy shown above was used, we started with all currencies with infinite weight except the initial one, which is the Canadian dollar (CAD).
   - Then we start the walk through the graph where we use an object to control the unvisited nodes and then look at its neighbors and update the weights.

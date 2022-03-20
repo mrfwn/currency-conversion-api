@@ -1,0 +1,20 @@
+Currency Code,Country,Amount of currency,Path
+CAD,Canada Dollar,100,CAD
+USD,USA Dollar,79.749826,CAD | USD
+HKD,Hong Kong Dollar,616.955281,CAD | HKD
+PHP,Philippines Peso,3989.539274,CAD | HKD | PHP
+KRW,South Korea Won,94250.363639,CAD | HKD | PHP | KRW
+SGD,Singapore Dollar,104.150387,CAD | HKD | PHP | KRW | SGD
+SAR,Saudi Arabia Riyal,301.361933,CAD | USD | SAR
+LRD,Liberia Dollar,13647.693485,CAD | EUR | GBP | LRD
+GBP,Great Britain Pound,57.463777,CAD | EUR | GBP
+NOK,Norway Kroner,691.986062,CAD | EUR | GBP | NOK
+SEK,Sweden Krona,692.519979,CAD | EUR | GBP | NOK | SEK
+BRL,Brazil Real,414.135329,CAD | BRL
+UYU,Uruguay Peso,3414.634948,CAD | BRL | UYU
+EUR,Euro,67.229335,CAD | EUR
+CNY,China Yuan/Renminbi,518.708421,CAD | USD | CNY
+BTC,Bitcoin,0.001803,CAD | BTC
+NANO,Nano,15.237196,CAD | BTC | NANO
+ADA,Cardano,36.865816,CAD | BTC | NANO | ADA
+ALGO,Alogorand,42.941417,CAD | BTC | NANO | ADA | ALGO
